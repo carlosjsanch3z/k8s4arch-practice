@@ -38,7 +38,7 @@ spec:
     spec:
       containers:
       - name: k8s4arch-hotels
-        image: ghcr.io/go-elevate/k8s4arch-hotels:monolith
+        image: ghcr.io/go-elevate/k8s4arch-hotels:monolith-v2
         ports:
         - containerPort: 80
         readinessProbe:
