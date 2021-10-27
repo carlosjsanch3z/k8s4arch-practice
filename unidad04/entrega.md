@@ -2,17 +2,17 @@ Deploy:
 
 Part1:
 ```sh
-kubectl
+kubectl -f 00_part1.yml
 ```
 
 Part2 & 3:
 ```sh
-kubectl
+kubectl -f 00_part2-3.yml
 ```
 
 Part4:
 ```sh
-kubectl
+kubectl -f 00_part4.yml
 ```
 
 Troubleshooting job:
